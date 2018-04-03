@@ -1,5 +1,5 @@
 def using_include(array, element)
-  if array[element] == element
+  if array[element].to_i == element
     return true
   else
     return false
